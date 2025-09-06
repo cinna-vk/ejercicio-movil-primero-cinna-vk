@@ -39,7 +39,7 @@ nav ul{
     }
 }
 
-@media screen and (min-width: 769px){
+@media screen and (min-width: 769px) and (max-width: 1279px) {
     nav{
         display: flex;
         flex-direction: row;
@@ -59,7 +59,7 @@ nav ul{
     }
 
     .content {
-        display:flexbox;
-        flex-direction:row;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }
